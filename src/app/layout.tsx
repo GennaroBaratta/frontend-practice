@@ -23,7 +23,7 @@ export default function RootLayout({
         <html lang="en" className="scroll-smooth">
             <body className={notoSans.className}>
                 <NavigationComponent />
-                <main className="content min-h-screen justify-between gap-44 p-8 text-sm font-medium">
+                <main className="content min-h-screen justify-between gap-52 p-8 text-sm font-medium">
                     <div />
                     {children}
                     <Footer />

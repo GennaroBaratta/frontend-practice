@@ -1,4 +1,4 @@
-import AnimatedSection from '../animatedSection'
+import AnimatedSection from './animatedSection'
 
 export default function Footer() {
     return (

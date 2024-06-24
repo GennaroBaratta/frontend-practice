@@ -1,4 +1,5 @@
-import AnimatedSection from '@/components/animatedSection'
+import AnimatedSection from '@/components/component/animatedSection'
+import { Badge } from '@/components/ui/badge'
 
 export default function Profile() {
     return (
@@ -22,7 +23,9 @@ export default function Profile() {
                 ))}
             </AnimatedSection>
             <AnimatedSection>
-                <h1>About me</h1>
+                <div
+                    className="rounded-[100px] bg-gray-200/60 px-3 py-1"
+                >About </div>
             </AnimatedSection>
         </>
     )
