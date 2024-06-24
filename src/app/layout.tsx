@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Noto_Sans } from "next/font/google";
 import "./globals.css";
+import Footer from "@/components/component/footer";
+import { NavigationComponent } from "@/components/component/navigation-component";
 
 
 const notoSans = Noto_Sans({
@@ -20,7 +22,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className={notoSans.className}>{children}</body>
+      <body className={notoSans.className}>
+
+        <NavigationComponent />
+        <main className='content p-8 text-sm font-medium gap-44 min-h-screen justify-between'>
+          <div />
+          {children}
+          <Footer />
+        </main>
+      </body>
     </html>
   );
 }
