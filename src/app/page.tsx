@@ -9,7 +9,7 @@ export default function Home() {
         <NavigationComponent />
         <div className=" h-[30vh] w-full" />
         <AnimatedSection>
-          <h1 className="text-4xl font-semibold font-wdth[100]">A brand and product designer working with clients globally</h1>
+          <h1 className="text-4xl font-semibold">A brand and product designer working with clients globally</h1>
 
         </AnimatedSection>
         <AnimatedSection className="second">
